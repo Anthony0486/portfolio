@@ -1,10 +1,19 @@
-const skills = [
+type SkillColor = 'blue' | 'lilac' | 'pink' | 'green' | 'yellow'
+
+type Skill = {
+  name: string
+  detail?: string
+  mark: string
+  color: SkillColor
+}
+
+const skills: Skill[] = [
   { name: 'React', detail: 'TypeScript', mark: '⚛', color: 'blue' },
-  { name: 'Next.js', detail: '', mark: 'N', color: 'lilac' },
+  { name: 'Next.js', mark: 'N', color: 'lilac' },
   { name: 'Symfony', detail: 'PHP', mark: 'Sf', color: 'pink' },
-  { name: 'Node.js', detail: '', mark: 'JS', color: 'green' },
-  { name: 'Docker', detail: '', mark: '▤', color: 'blue' },
-  { name: 'MySQL', detail: '', mark: '⌁', color: 'yellow' },
+  { name: 'Node.js', mark: 'JS', color: 'green' },
+  { name: 'Docker', mark: '▤', color: 'blue' },
+  { name: 'MySQL', mark: '⌁', color: 'yellow' },
   { name: 'Oracle SQL', detail: 'Developer', mark: '◉', color: 'lilac' },
 ]
 

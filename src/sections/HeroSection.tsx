@@ -27,7 +27,7 @@ function HeroSection() {
       <div
         className="hero-illustration"
         role="group"
-        aria-label="Illustration d’un espace de développement"
+        aria-label="Illustration d’une interface web, d’une tasse de café et d’une manette de jeu"
       >
         <div className="hero-note">
           Code
@@ -38,8 +38,12 @@ function HeroSection() {
         </div>
         <div className="portrait-frame">
           <img
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85"
-            alt="Un ordinateur portable sur un bureau de développement"
+            src="/doodle-dev-hero.svg"
+            alt="Doodle d’une interface web avec tasse de café et manette de jeu"
+            width={700}
+            height={480}
+            loading="eager"
+            fetchPriority="high"
           />
         </div>
         <div className="hero-sticker" aria-hidden="true">
