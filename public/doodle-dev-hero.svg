@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" width="700" height="480" role="img" aria-label="Doodle d'une fenêtre de navigateur avec wireframe, tasse de café et manette de jeu">
+  <defs>
+    <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#wobble)" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Fenêtre : ombre dure -->
+    <rect x="72" y="62" width="500" height="320" rx="14" fill="#1a1a1a"/>
+    <!-- Fenêtre : fond -->
+    <rect x="60" y="50" width="500" height="320" rx="14" fill="#ffffff"/>
+    <!-- Barre de titre jaune -->
+    <rect x="60" y="50" width="500" height="50" rx="14" fill="#f4d35e"/>
+    <rect x="60" y="80" width="500" height="20" fill="#f4d35e"/>
+    <line x1="60" y1="100" x2="560" y2="100" stroke="#1a1a1a" stroke-width="4"/>
+    <!-- Contour -->
+    <rect x="60" y="50" width="500" height="320" rx="14" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+
+    <!-- Points -->
+    <circle cx="90" cy="75" r="7" fill="#f8dde2" stroke="#1a1a1a" stroke-width="2.5"/>
+    <circle cx="114" cy="75" r="7" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+    <circle cx="138" cy="75" r="7" fill="#a9dcb8" stroke="#1a1a1a" stroke-width="2.5"/>
+
+    <!-- Barre d'URL -->
+    <rect x="175" y="62" width="300" height="26" rx="13" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+    <path d="M195 75 q8 -8 16 0 t16 0 t16 0 t16 0 t16 0 t16 0" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+
+    <!-- Hero : titre avec surlignage menthe -->
+    <rect x="86" y="126" width="250" height="36" rx="9" fill="#a9dcb8"/>
+    <path d="M100 144 L320 144" stroke="#1a1a1a" stroke-width="9" fill="none"/>
+    <path d="M100 184 L255 184" stroke="#1a1a1a" stroke-width="9" fill="none"/>
+    <path d="M100 212 L330 212" stroke="#b8b2a4" stroke-width="4" fill="none"/>
+    <path d="M100 228 L290 228" stroke="#b8b2a4" stroke-width="4" fill="none"/>
+
+    <!-- Boutons -->
+    <rect x="94" y="258" width="124" height="38" rx="9" fill="#1a1a1a"/>
+    <rect x="90" y="254" width="124" height="38" rx="9" fill="#f4d35e" stroke="#1a1a1a" stroke-width="3"/>
+    <path d="M110 273 L172 273 M164 266 L173 273 L164 280" stroke="#1a1a1a" stroke-width="3.5" fill="none"/>
+    <rect x="234" y="258" width="96" height="38" rx="9" fill="#1a1a1a"/>
+    <rect x="230" y="254" width="96" height="38" rx="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+    <path d="M250 273 L306 273" stroke="#1a1a1a" stroke-width="3.5" fill="none"/>
+
+    <!-- Zone image à droite -->
+    <rect x="378" y="124" width="156" height="130" rx="10" fill="#d9ecf9" stroke="#1a1a1a" stroke-width="3.5"/>
+    <circle cx="450" cy="164" r="15" fill="#f4d35e" stroke="#1a1a1a" stroke-width="2.5"/>
+    <path d="M388 246 L440 192 L478 228 L504 206 L526 246 Z" fill="#a9dcb8" stroke="#1a1a1a" stroke-width="3"/>
+
+    <!-- Cartes du bas -->
+    <rect x="94" y="314" width="135" height="46" rx="9" fill="#1a1a1a"/>
+    <rect x="90" y="310" width="135" height="46" rx="9" fill="#f8dde2" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="249" y="314" width="135" height="46" rx="9" fill="#1a1a1a"/>
+    <rect x="245" y="310" width="135" height="46" rx="9" fill="#e5dff8" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="404" y="314" width="135" height="46" rx="9" fill="#1a1a1a"/>
+    <rect x="400" y="310" width="135" height="46" rx="9" fill="#d9ecf9" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="112" cy="333" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+    <circle cx="267" cy="333" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+    <circle cx="422" cy="333" r="9" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+    <path d="M132 328 L205 328 M132 340 L180 340 M287 328 L360 328 M287 340 L335 340 M442 328 L515 328 M442 340 L490 340" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+
+    <!-- Curseur sur le bouton jaune -->
+    <path d="M186 272 L186 316 L197 306 L205 324 L214 320 L206 303 L221 303 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+
+    <!-- Tasse de café -->
+    <rect x="606" y="330" width="62" height="64" rx="10" fill="#1a1a1a"/>
+    <rect x="600" y="324" width="62" height="64" rx="10" fill="#f8dde2" stroke="#1a1a1a" stroke-width="3.5"/>
+    <path d="M662 340 q26 0 26 20 q0 20 -26 20" stroke="#1a1a1a" stroke-width="3.5" fill="none"/>
+    <path d="M618 312 q-9 -11 0 -22 q9 -11 0 -22 M642 312 q-9 -11 0 -22 q9 -11 0 -22" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+    <path d="M618 350 q13 12 26 0" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+
+    <!-- Manette -->
+    <g transform="rotate(-8 95 428)">
+      <rect x="46" y="404" width="122" height="64" rx="30" fill="#1a1a1a" transform="translate(5 5)"/>
+      <rect x="46" y="404" width="122" height="64" rx="30" fill="#e5dff8" stroke="#1a1a1a" stroke-width="3.5"/>
+      <path d="M80 424 L80 448 M68 436 L92 436" stroke="#1a1a1a" stroke-width="7" fill="none"/>
+      <circle cx="132" cy="430" r="7" fill="#f4d35e" stroke="#1a1a1a" stroke-width="2.5"/>
+      <circle cx="148" cy="442" r="7" fill="#a9dcb8" stroke="#1a1a1a" stroke-width="2.5"/>
+    </g>
+
+    <!-- Balise de code -->
+    <text x="590" y="78" font-family="'Courier New',monospace" font-size="40" font-weight="bold" fill="#1a1a1a" transform="rotate(5 590 78)">&lt;/&gt;</text>
+
+    <!-- Astérisques verts -->
+    <g stroke="#5a8a6a" stroke-width="4" fill="none">
+      <path d="M626 160 L626 196 M608 178 L644 178 M613 165 L639 191 M639 165 L613 191"/>
+      <path d="M28 190 L28 214 M16 202 L40 202 M20 194 L36 210 M36 194 L20 210" stroke-width="3.5"/>
+    </g>
+
+    <!-- Étincelles jaunes -->
+    <g fill="#f4d35e" stroke="#1a1a1a" stroke-width="2.5">
+      <path d="M40 90 L44 101 L55 105 L44 109 L40 120 L36 109 L25 105 L36 101 Z"/>
+      <path d="M600 250 L603 259 L612 262 L603 265 L600 274 L597 265 L588 262 L597 259 Z"/>
+      <path d="M350 424 L354 435 L365 439 L354 443 L350 454 L346 443 L335 439 L346 435 Z"/>
+    </g>
+
+    <!-- Soulignement ondulé rose -->
+    <path d="M215 452 q14 -13 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0" stroke="#e58aa0" stroke-width="5" fill="none"/>
+  </g>
+</svg>

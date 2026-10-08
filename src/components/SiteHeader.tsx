@@ -1,6 +1,8 @@
+import type { Theme } from '../types'
+
 type SiteHeaderProps = {
   menuOpen: boolean
-  theme: 'light' | 'dark'
+  theme: Theme
   onMenuToggle: () => void
   onCloseMenu: () => void
   onThemeToggle: () => void

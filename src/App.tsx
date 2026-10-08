@@ -6,9 +6,8 @@ import ContactSection from './sections/ContactSection'
 import HeroSection from './sections/HeroSection'
 import ProjectsSection from './sections/ProjectsSection'
 import SkillsSection from './sections/SkillsSection'
+import type { Theme } from './types'
 import './style.css'
-
-type Theme = 'light' | 'dark'
 
 const currentYear = new Date().getFullYear()
 

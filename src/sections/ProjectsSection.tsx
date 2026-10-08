@@ -1,4 +1,16 @@
-const projects = [
+type ProjectArt = 'collectendo' | 'task-mvc' | 'portfolio'
+type ProjectColor = 'pink' | 'blue' | 'green'
+
+type Project = {
+  title: string
+  description: string
+  detail: string
+  tags: string[]
+  art: ProjectArt
+  color: ProjectColor
+}
+
+const projects: Project[] = [
   {
     title: 'Collectendo',
     description: 'Application de collection Nintendo',
